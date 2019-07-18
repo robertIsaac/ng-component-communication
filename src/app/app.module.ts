@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { TriggerComponent } from './trigger/trigger.component';
 import { ShowDataComponent } from './show-data/show-data.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
+import { CustomCurrencyPipe } from './pipes/custom-currency.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     TriggerComponent,
-    ShowDataComponent
+    ShowDataComponent,
+    HeaderComponent,
+    CustomCurrencyPipe
   ],
   imports: [
     BrowserModule,
